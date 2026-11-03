@@ -1,0 +1,26 @@
+{
+  "error": null,
+  "metadata": {
+    "pageCount": 4
+  },
+  "value": {
+    "pages": [
+      {
+        "content": "# Annual Data Platform Report 2026\n\nThis document is a synthetic test file for comparing the OCR, LAYOUT and AGENTIC modes of AI_PARSE_DOCUMENT. Native text and tables are extracted by every mode, while the embedded images (charts, diagrams, screenshots, scans, infographics, photos) are only interpreted by AGENTIC.\n\n# 1. Key figures (native PDF table)\n\n|  Metric | 2025 | 2026  |\n| --- | --- | --- |\n|  Revenue (USD M) | 480 | 585  |\n|  Customers | 1,940 | 2,310  |\n|  Credits consumed (M) | 12.4 | 17.9  |\n\n# 2. Quarterly revenue (bar chart image)\n\n![img-0.jpeg](img-0.jpeg)\n\nAgentic parse test document - page 1",
+        "index": 0
+      },
+      {
+        "content": "# 3. User activity (line chart)\n\n![img-1.jpeg](img-1.jpeg)\n\n# 4. Cost structure (pie chart) and segments (stacked bar)\n\n![img-2.jpeg](img-2.jpeg)\n\n![img-3.jpeg](img-3.jpeg)\n\n# 5. Platform health (multi-panel chart)\n\n![img-4.jpeg](img-4.jpeg)\n\n![img-5.jpeg](img-5.jpeg)\n\n![img-6.jpeg](img-6.jpeg)\n\nAgentic parse test document - page 2",
+        "index": 1
+      },
+      {
+        "content": "Agentic parse test document - page 3\n\n# 6. Order details (table rendered as image)\n\nWinter Order #WO-2026-0117\n\n|  Product | Units | Unit price | Total  |\n| --- | --- | --- | --- |\n|  Snow Boots | 120 | $89.00 | $10,680.00  |\n|  Ski jacket | 45 | $249.00 | $11,205.00  |\n|  Thermal Gloves | 300 | $19.50 | $5,850.00  |\n|  Goggles | 80 | $65.00 | $5,200.00  |\n|  TOTAL | 545 |  | $32,935.00  |\n\n# 7. Pipeline architecture (diagram)\n\nData Ingestion Architecture\n\n![img-7.jpeg](img-7.jpeg)\n\n# 8. Error reported by user (screenshot)\n\nSnowsight | Worksheets &gt; Untitled 1\n\n![img-8.jpeg](img-8.jpeg)",
+        "index": 2
+      },
+      {
+        "content": "Agentic parse test document - page 4\n\n# 9. Scanned memo (document page)\n\n## MEMORANDUM\n\nTo: All Data Engineers  From: CDO Office  Date: 14 Oct 2026\n\n1. Warehouse policy\n\nEffective 1 November 2026 all warehouses must use AUTO_SUSPEND of 60 seconds or less. Exceptions require written approval from the platform team.\n\n2. Cortex AI usage\n\nAI_PARSE_DOCUMENT may be used for internal documents only. Customer contracts must be processed in the EU region. Budget limit: 500 credits per month.\n\nNOTE: Non-compliant warehouses will be suspended.\n\n* Contact: platform-aram@example.com  Page 1 of 1\n\n![img-9.jpeg](img-9.jpeg)\n10. Road sign (photo with text)\n\n# 11. Survey results (infographic)\n\n![img-10.jpeg](img-10.jpeg)\n\n# 12. Decorative pattern (other)\n\n![img-11.jpeg](img-11.jpeg)",
+        "index": 3
+      }
+    ]
+  }
+}

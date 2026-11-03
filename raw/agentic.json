@@ -1,0 +1,1448 @@
+{
+  "error": null,
+  "metadata": {
+    "pageCount": 4,
+    "processedPageCount": 4
+  },
+  "value": {
+    "pages": [
+      {
+        "content": "# Annual Data Platform Report 2026\n\nThis document is a synthetic test file for comparing the OCR, LAYOUT and AGENTIC modes of AI_PARSE_DOCUMENT. Native text and tables are extracted by every mode, while the embedded images (charts, diagrams, screenshots, scans, infographics, photos) are only interpreted by AGENTIC.\n\n# 1. Key figures (native PDF table)\n\n|  Metric | 2025 | 2026  |\n| --- | --- | --- |\n|  Revenue (USD M) | 480 | 585  |\n|  Customers | 1,940 | 2,310  |\n|  Credits consumed (M) | 12.4 | 17.9  |\n\n# 2. Quarterly revenue (bar chart image)\n\n![img-0.jpeg](img-0.jpeg)\n\nAgentic parse test document - page 1",
+        "dimensions": {
+          "height": 2339,
+          "width": 1654
+        },
+        "images": [
+          {
+            "bottom_right_x": 1361,
+            "bottom_right_y": 1288,
+            "id": "img-0.jpeg",
+            "results": {
+              "details": {
+                "chart_type": "bar",
+                "key_values": [
+                  "Q1 2026 Revenue: $120M",
+                  "Q2 2026 Revenue: $145M",
+                  "Q3 2026 Revenue: $138M",
+                  "Q4 2026 Revenue: $182M"
+                ],
+                "notes": "The chart displays exact values above each bar: $120M for Q1, $145M for Q2, $138M for Q3, and $182M for Q4.",
+                "series": [
+                  {
+                    "name": "Revenue",
+                    "points": [
+                      {
+                        "label": "Q1 2026",
+                        "value": 120,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "Q2 2026",
+                        "value": 145,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "Q3 2026",
+                        "value": 138,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "Q4 2026",
+                        "value": 182,
+                        "value_precision": "exact",
+                        "value_range": null
+                      }
+                    ],
+                    "unit": "USD millions"
+                  }
+                ],
+                "title": "Quarterly Revenue 2026",
+                "values_estimated": false,
+                "x_axis": {
+                  "label": "Quarter",
+                  "units": null
+                },
+                "y_axis": {
+                  "label": "Revenue (USD millions)",
+                  "units": "USD millions"
+                }
+              },
+              "image_type": "chart",
+              "summary": "A bar chart showing the quarterly revenue for the year 2026, with revenue increasing from Q1 to Q2, slightly dipping in Q3, and peaking in Q4."
+            },
+            "top_left_x": 287,
+            "top_left_y": 685
+          }
+        ],
+        "index": 0
+      },
+      {
+        "content": "# 3. User activity (line chart)\n\n![img-1.jpeg](img-1.jpeg)\n\n# 4. Cost structure (pie chart) and segments (stacked bar)\n\n![img-2.jpeg](img-2.jpeg)\n\n![img-3.jpeg](img-3.jpeg)\n\n# 5. Platform health (multi-panel chart)\n\n![img-4.jpeg](img-4.jpeg)\n\n![img-5.jpeg](img-5.jpeg)\n\n![img-6.jpeg](img-6.jpeg)\n\nAgentic parse test document - page 2",
+        "dimensions": {
+          "height": 2339,
+          "width": 1654
+        },
+        "images": [
+          {
+            "bottom_right_x": 1316,
+            "bottom_right_y": 718,
+            "id": "img-1.jpeg",
+            "results": {
+              "details": {
+                "chart_type": "line",
+                "key_values": [
+                  "North America Peak: 30k in August",
+                  "Europe Peak: ~26k in July"
+                ],
+                "notes": "An annotation points to the North America August data point with the text 'Peak: 30k'.",
+                "series": [
+                  {
+                    "name": "Europe",
+                    "points": [
+                      {
+                        "label": "Jan",
+                        "value": 12,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          11.5,
+                          12.5
+                        ]
+                      },
+                      {
+                        "label": "Feb",
+                        "value": 14,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          13.5,
+                          14.5
+                        ]
+                      },
+                      {
+                        "label": "Mar",
+                        "value": 15,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "Apr",
+                        "value": 17,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          16.5,
+                          17.5
+                        ]
+                      },
+                      {
+                        "label": "May",
+                        "value": 21,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          20.5,
+                          21.5
+                        ]
+                      },
+                      {
+                        "label": "Jun",
+                        "value": 24,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          23.5,
+                          24.5
+                        ]
+                      },
+                      {
+                        "label": "Jul",
+                        "value": 26,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          25.5,
+                          26.5
+                        ]
+                      },
+                      {
+                        "label": "Aug",
+                        "value": 25,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "Sep",
+                        "value": 22,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          21.5,
+                          22.5
+                        ]
+                      },
+                      {
+                        "label": "Oct",
+                        "value": 19,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          18.5,
+                          19.5
+                        ]
+                      },
+                      {
+                        "label": "Nov",
+                        "value": 16,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          15.5,
+                          16.5
+                        ]
+                      },
+                      {
+                        "label": "Dec",
+                        "value": 13,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          12.5,
+                          13.5
+                        ]
+                      }
+                    ],
+                    "unit": "thousands"
+                  },
+                  {
+                    "name": "North America",
+                    "points": [
+                      {
+                        "label": "Jan",
+                        "value": 8,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          7.5,
+                          8.5
+                        ]
+                      },
+                      {
+                        "label": "Feb",
+                        "value": 9,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          8.5,
+                          9.5
+                        ]
+                      },
+                      {
+                        "label": "Mar",
+                        "value": 12,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          11.5,
+                          12.5
+                        ]
+                      },
+                      {
+                        "label": "Apr",
+                        "value": 15,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "May",
+                        "value": 18,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          17.5,
+                          18.5
+                        ]
+                      },
+                      {
+                        "label": "Jun",
+                        "value": 23,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          22.5,
+                          23.5
+                        ]
+                      },
+                      {
+                        "label": "Jul",
+                        "value": 28,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          27.5,
+                          28.5
+                        ]
+                      },
+                      {
+                        "label": "Aug",
+                        "value": 30,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "Sep",
+                        "value": 26,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          25.5,
+                          26.5
+                        ]
+                      },
+                      {
+                        "label": "Oct",
+                        "value": 20,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "Nov",
+                        "value": 14,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          13.5,
+                          14.5
+                        ]
+                      },
+                      {
+                        "label": "Dec",
+                        "value": 10,
+                        "value_precision": "exact",
+                        "value_range": null
+                      }
+                    ],
+                    "unit": "thousands"
+                  }
+                ],
+                "title": "Active Users per Month (thousands)",
+                "values_estimated": true,
+                "x_axis": {
+                  "label": null,
+                  "units": "months"
+                },
+                "y_axis": {
+                  "label": "Users (k)",
+                  "units": "thousands"
+                }
+              },
+              "image_type": "chart",
+              "summary": "The image is a line chart showing the monthly active users in thousands for Europe and North America over a calendar year. Both regions show a seasonal trend peaking in the summer months, with North America reaching a higher peak of 30k in August."
+            },
+            "top_left_x": 327,
+            "top_left_y": 159
+          },
+          {
+            "bottom_right_x": 749,
+            "bottom_right_y": 1316,
+            "id": "img-2.jpeg",
+            "results": {
+              "details": {
+                "chart_type": "pie",
+                "key_values": [
+                  "Compute: 45%",
+                  "Storage: 25%",
+                  "AI Services: 18%",
+                  "Data Transfer: 12%"
+                ],
+                "notes": "The sum of all categories equals 100%.",
+                "series": [
+                  {
+                    "name": "Cloud Cost Share",
+                    "points": [
+                      {
+                        "label": "Compute",
+                        "value": 45,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "Storage",
+                        "value": 25,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "AI Services",
+                        "value": 18,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "Data Transfer",
+                        "value": 12,
+                        "value_precision": "exact",
+                        "value_range": null
+                      }
+                    ],
+                    "unit": "%"
+                  }
+                ],
+                "title": "Cloud Cost Breakdown FY2026",
+                "values_estimated": false,
+                "x_axis": {
+                  "label": null,
+                  "units": null
+                },
+                "y_axis": {
+                  "label": null,
+                  "units": null
+                }
+              },
+              "image_type": "chart",
+              "summary": "A pie chart showing the breakdown of cloud costs for FY2026 across four categories: Compute, Storage, AI Services, and Data Transfer."
+            },
+            "top_left_x": 125,
+            "top_left_y": 844
+          },
+          {
+            "bottom_right_x": 1558,
+            "bottom_right_y": 1335,
+            "id": "img-3.jpeg",
+            "results": {
+              "details": {
+                "chart_type": "bar",
+                "key_values": [
+                  "Total EMEA customers: 75",
+                  "Total AMER customers: 120",
+                  "Total APJ customers: 65"
+                ],
+                "notes": "The chart is a stacked bar chart. The segment values are derived by calculating the height of each colored block. Total heights align precisely with gridlines for EMEA (75), AMER (120), and APJ (65).",
+                "series": [
+                  {
+                    "name": "Enterprise",
+                    "points": [
+                      {
+                        "label": "EMEA",
+                        "value": 40,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "AMER",
+                        "value": 65,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          63,
+                          67
+                        ]
+                      },
+                      {
+                        "label": "APJ",
+                        "value": 30,
+                        "value_precision": "exact",
+                        "value_range": null
+                      }
+                    ],
+                    "unit": null
+                  },
+                  {
+                    "name": "Mid-market",
+                    "points": [
+                      {
+                        "label": "EMEA",
+                        "value": 25,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          23,
+                          27
+                        ]
+                      },
+                      {
+                        "label": "AMER",
+                        "value": 35,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          33,
+                          37
+                        ]
+                      },
+                      {
+                        "label": "APJ",
+                        "value": 20,
+                        "value_precision": "exact",
+                        "value_range": null
+                      }
+                    ],
+                    "unit": null
+                  },
+                  {
+                    "name": "SMB",
+                    "points": [
+                      {
+                        "label": "EMEA",
+                        "value": 10,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          8,
+                          12
+                        ]
+                      },
+                      {
+                        "label": "AMER",
+                        "value": 20,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "APJ",
+                        "value": 15,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          13,
+                          17
+                        ]
+                      }
+                    ],
+                    "unit": null
+                  }
+                ],
+                "title": "Customers by Segment and Region",
+                "values_estimated": true,
+                "x_axis": {
+                  "label": null,
+                  "units": null
+                },
+                "y_axis": {
+                  "label": "Number of customers",
+                  "units": "count"
+                }
+              },
+              "image_type": "chart",
+              "summary": "A stacked bar chart showing the number of customers by segment (Enterprise, Mid-market, SMB) across three regions: EMEA, AMER, and APJ."
+            },
+            "top_left_x": 835,
+            "top_left_y": 844
+          },
+          {
+            "bottom_right_x": 568,
+            "bottom_right_y": 1913,
+            "id": "img-4.jpeg",
+            "results": {
+              "details": {
+                "chart_type": "line",
+                "key_values": [
+                  "Minimum latency: 190 ms on Day 2",
+                  "Maximum latency: ~320 ms on Day 7"
+                ],
+                "notes": "The data points for Days 1 through 6 align precisely with the horizontal grid values (210, 190, 230, 250, 240, 300). The final point on Day 7 is slightly below the 325 mark, estimated at 320 ms.",
+                "series": [
+                  {
+                    "name": "p95 Latency",
+                    "points": [
+                      {
+                        "label": "1",
+                        "value": 210,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "2",
+                        "value": 190,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "3",
+                        "value": 230,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "4",
+                        "value": 250,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "5",
+                        "value": 240,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "6",
+                        "value": 300,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "7",
+                        "value": 320,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          318,
+                          322
+                        ]
+                      }
+                    ],
+                    "unit": "ms"
+                  }
+                ],
+                "title": "Latency p95 (ms)",
+                "values_estimated": true,
+                "x_axis": {
+                  "label": "Day",
+                  "units": "days"
+                },
+                "y_axis": {
+                  "label": null,
+                  "units": "ms"
+                }
+              },
+              "image_type": "chart",
+              "summary": "A line chart showing the 95th percentile latency (p95) in milliseconds over a 7-day period, demonstrating an overall upward trend despite a dip on Day 2 and Day 5."
+            },
+            "top_left_x": 130,
+            "top_left_y": 1525
+          },
+          {
+            "bottom_right_x": 1046,
+            "bottom_right_y": 1913,
+            "id": "img-5.jpeg",
+            "results": {
+              "details": {
+                "chart_type": "bar",
+                "key_values": [
+                  "Lowest availability on Day 4: ~98.7%",
+                  "Highest availability on Day 5: ~99.95%"
+                ],
+                "notes": "The y-axis is zoomed in to show the range from 98.0% to 100.0%.",
+                "series": [
+                  {
+                    "name": "Availability",
+                    "points": [
+                      {
+                        "label": "1",
+                        "value": 99.1,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "2",
+                        "value": 99.5,
+                        "value_precision": "exact",
+                        "value_range": null
+                      },
+                      {
+                        "label": "3",
+                        "value": 99.9,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          99.85,
+                          99.95
+                        ]
+                      },
+                      {
+                        "label": "4",
+                        "value": 98.7,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          98.65,
+                          98.75
+                        ]
+                      },
+                      {
+                        "label": "5",
+                        "value": 99.95,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          99.9,
+                          100
+                        ]
+                      },
+                      {
+                        "label": "6",
+                        "value": 99.8,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          99.75,
+                          99.85
+                        ]
+                      },
+                      {
+                        "label": "7",
+                        "value": 99.9,
+                        "value_precision": "estimated",
+                        "value_range": [
+                          99.85,
+                          99.95
+                        ]
+                      }
+                    ],
+                    "unit": "%"
+                  }
+                ],
+                "title": "Availability (%)",
+                "values_estimated": true,
+                "x_axis": {
+                  "label": "Day",
+                  "units": "days"
+                },
+                "y_axis": {
+                  "label": null,
+                  "units": "%"
+                }
+              },
+              "image_type": "chart",
+              "summary": "A bar chart showing the daily availability percentage over a 7-day period, with values ranging from approximately 98.7% to nearly 100.0%."
+            },
+            "top_left_x": 590,
+            "top_left_y": 1525
+          },
+          {
+            "bottom_right_x": 1516,
+            "bottom_right_y": 1913,
+            "id": "img-6.jpeg",
+            "results": {
+              "details": {
+                "chart_type": "scatter",
+                "key_values": [],
+                "notes": "The y-axis has tick marks at 2, 4, and 6, but lacks a label. The x-axis has tick marks at 0, 20, 40, and 60. There are 29 distinct data points plotted.",
+                "series": [
+                  {
+                    "name": "Data Points",
+                    "points": [
+                      {
+                        "label": "Point 1",
+                        "value": [
+                          2.8,
+                          1
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            1,
+                            4
+                          ],
+                          [
+                            0.7,
+                            1.3
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 2",
+                        "value": [
+                          9.3,
+                          4.3
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            8,
+                            11
+                          ],
+                          [
+                            4,
+                            4.6
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 3",
+                        "value": [
+                          10.1,
+                          5.2
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            9,
+                            11.5
+                          ],
+                          [
+                            4.9,
+                            5.5
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 4",
+                        "value": [
+                          11.2,
+                          7
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            10,
+                            12.5
+                          ],
+                          [
+                            6.7,
+                            7.3
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 5",
+                        "value": [
+                          14,
+                          1.6
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            12.5,
+                            15.5
+                          ],
+                          [
+                            1.3,
+                            1.9
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 6",
+                        "value": [
+                          17.8,
+                          6.6
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            16.5,
+                            19
+                          ],
+                          [
+                            6.3,
+                            6.9
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 7",
+                        "value": [
+                          18.5,
+                          6.4
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            17,
+                            19.5
+                          ],
+                          [
+                            6.1,
+                            6.7
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 8",
+                        "value": [
+                          18.6,
+                          6.9
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            17.5,
+                            20
+                          ],
+                          [
+                            6.6,
+                            7.2
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 9",
+                        "value": [
+                          20,
+                          6.8
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            18.5,
+                            21
+                          ],
+                          [
+                            6.5,
+                            7.1
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 10",
+                        "value": [
+                          20.8,
+                          5.1
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            19.5,
+                            22
+                          ],
+                          [
+                            4.8,
+                            5.4
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 11",
+                        "value": [
+                          21.9,
+                          5
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            20.5,
+                            23
+                          ],
+                          [
+                            4.7,
+                            5.3
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 12",
+                        "value": [
+                          26.7,
+                          6.1
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            25,
+                            28
+                          ],
+                          [
+                            5.8,
+                            6.4
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 13",
+                        "value": [
+                          26.9,
+                          4.4
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            25.5,
+                            28.5
+                          ],
+                          [
+                            4.1,
+                            4.7
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 14",
+                        "value": [
+                          27.8,
+                          7.3
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            26.5,
+                            29.5
+                          ],
+                          [
+                            7,
+                            7.6
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 15",
+                        "value": [
+                          29.5,
+                          4.3
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            28,
+                            31
+                          ],
+                          [
+                            4,
+                            4.6
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 16",
+                        "value": [
+                          31.8,
+                          1.9
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            30,
+                            33
+                          ],
+                          [
+                            1.6,
+                            2.2
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 17",
+                        "value": [
+                          33.3,
+                          4.4
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            31.5,
+                            35
+                          ],
+                          [
+                            4.1,
+                            4.7
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 18",
+                        "value": [
+                          35.3,
+                          6.9
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            33.5,
+                            37
+                          ],
+                          [
+                            6.6,
+                            7.2
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 19",
+                        "value": [
+                          36,
+                          3.9
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            34.5,
+                            37.5
+                          ],
+                          [
+                            3.6,
+                            4.2
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 20",
+                        "value": [
+                          46.9,
+                          1.1
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            45,
+                            48.5
+                          ],
+                          [
+                            0.8,
+                            1.4
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 21",
+                        "value": [
+                          48.3,
+                          5.3
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            46.5,
+                            50
+                          ],
+                          [
+                            5,
+                            5.6
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 22",
+                        "value": [
+                          48.4,
+                          5.6
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            46.5,
+                            50
+                          ],
+                          [
+                            5.3,
+                            5.9
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 23",
+                        "value": [
+                          50.6,
+                          2.4
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            49,
+                            52
+                          ],
+                          [
+                            2.1,
+                            2.7
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 24",
+                        "value": [
+                          53.3,
+                          0.8
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            51.5,
+                            55
+                          ],
+                          [
+                            0.5,
+                            1.1
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 25",
+                        "value": [
+                          60.6,
+                          1.4
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            59,
+                            62
+                          ],
+                          [
+                            1.1,
+                            1.7
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 26",
+                        "value": [
+                          60.7,
+                          6.3
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            59,
+                            62
+                          ],
+                          [
+                            6,
+                            6.6
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 27",
+                        "value": [
+                          61.2,
+                          1.9
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            59.5,
+                            62.5
+                          ],
+                          [
+                            1.6,
+                            2.2
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 28",
+                        "value": [
+                          62.1,
+                          4
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            60.5,
+                            63.5
+                          ],
+                          [
+                            3.7,
+                            4.3
+                          ]
+                        ]
+                      },
+                      {
+                        "label": "Point 29",
+                        "value": [
+                          62.8,
+                          6.5
+                        ],
+                        "value_precision": "estimated",
+                        "value_range": [
+                          [
+                            61,
+                            64
+                          ],
+                          [
+                            6.2,
+                            6.8
+                          ]
+                        ]
+                      }
+                    ],
+                    "unit": null
+                  }
+                ],
+                "title": "Credits vs Warehouse Size",
+                "values_estimated": true,
+                "x_axis": {
+                  "label": "Size (credits/h)",
+                  "units": "credits/h"
+                },
+                "y_axis": {
+                  "label": null,
+                  "units": null
+                }
+              },
+              "image_type": "chart",
+              "summary": "A scatter plot titled 'Credits vs Warehouse Size' showing the relationship between warehouse size in credits/h on the x-axis and an unlabeled metric on the y-axis. The data points are scattered across the plot area with no obvious linear correlation."
+            },
+            "top_left_x": 1113,
+            "top_left_y": 1525
+          }
+        ],
+        "index": 1
+      },
+      {
+        "content": "Agentic parse test document - page 3\n\n# 6. Order details (table rendered as image)\n\nWinter Order #WO-2026-0117\n\n|  Product | Units | Unit price | Total  |\n| --- | --- | --- | --- |\n|  Snow Boots | 120 | $89.00 | $10,680.00  |\n|  Ski jacket | 45 | $249.00 | $11,205.00  |\n|  Thermal Gloves | 300 | $19.50 | $5,850.00  |\n|  Goggles | 80 | $65.00 | $5,200.00  |\n|  TOTAL | 545 |  | $32,935.00  |\n\n# 7. Pipeline architecture (diagram)\n\nData Ingestion Architecture\n\n![img-7.jpeg](img-7.jpeg)\n\n# 8. Error reported by user (screenshot)\n\nSnowsight | Worksheets &gt; Untitled 1\n\n![img-8.jpeg](img-8.jpeg)",
+        "dimensions": {
+          "height": 2339,
+          "width": 1654
+        },
+        "images": [
+          {
+            "bottom_right_x": 1500,
+            "bottom_right_y": 1085,
+            "id": "img-7.jpeg",
+            "results": {
+              "details": {
+                "components": [
+                  {
+                    "id": "s3_bucket",
+                    "label": "S3 Bucket",
+                    "role": "Data Source"
+                  },
+                  {
+                    "id": "snowpipe",
+                    "label": "Snowpipe",
+                    "role": "Ingestion Service"
+                  },
+                  {
+                    "id": "raw_table",
+                    "label": "RAW table",
+                    "role": "Storage Table"
+                  },
+                  {
+                    "id": "dynamic_table",
+                    "label": "Dynamic Table",
+                    "role": "Transformed Table"
+                  },
+                  {
+                    "id": "streamlit_app",
+                    "label": "Streamlit App",
+                    "role": "Data Consumer/Visualization"
+                  }
+                ],
+                "connections": [
+                  {
+                    "from": "s3_bucket",
+                    "label": "file event",
+                    "to": "snowpipe"
+                  },
+                  {
+                    "from": "snowpipe",
+                    "label": "COPY INTO",
+                    "to": "raw_table"
+                  },
+                  {
+                    "from": "raw_table",
+                    "label": "TARGET_LAG 5 min",
+                    "to": "dynamic_table"
+                  },
+                  {
+                    "from": "dynamic_table",
+                    "label": "SELECT",
+                    "to": "streamlit_app"
+                  }
+                ],
+                "diagram_type": "flowchart",
+                "purpose": "Conveys the sequential flow of data ingestion, transformation, and consumption from an AWS S3 bucket into a Streamlit application using Snowflake components."
+              },
+              "image_type": "diagram",
+              "summary": "A block diagram illustrating a data pipeline flow from an S3 Bucket to a Streamlit App, showing the intermediate processing steps and triggers."
+            },
+            "top_left_x": 152,
+            "top_left_y": 858
+          },
+          {
+            "bottom_right_x": 1422,
+            "bottom_right_y": 2034,
+            "id": "img-8.jpeg",
+            "results": {
+              "details": {
+                "app_or_page": "Snowsight | Worksheets > Untitled 1",
+                "purpose": "The user is attempting to execute a SQL query in a Snowflake worksheet, which has failed due to a compilation error regarding object existence or authorization.",
+                "state_signals": [
+                  "ERROR SQL compilation error: Object 'SALES.PUBLIC.ORDERS' does not exist or not authorized.",
+                  "Status: FAILED",
+                  "Download results button is disabled"
+                ],
+                "visible_text": [
+                  "Snowsight | Worksheets > Untitled 1",
+                  "Home",
+                  "Projects",
+                  "Data",
+                  "Monitoring",
+                  "Admin",
+                  "Role: ANALYST",
+                  "Warehouse: COMPUTE_WH (X-Small)",
+                  "SELECT region, SUM(amount)",
+                  "FROM sales.public.orders",
+                  "GROUP BY 1;",
+                  "Run",
+                  "ERROR SQL compilation error:",
+                  "Object 'SALES.PUBLIC.ORDERS' does not exist or not authorized.",
+                  "Download results",
+                  "Query ID: 01b7-0000-4a2c-ffff",
+                  "Duration: 112ms",
+                  "Status: FAILED"
+                ]
+              },
+              "image_type": "screenshot",
+              "summary": "A screenshot of the Snowflake Snowsight interface showing a SQL compilation error after attempting to run a query on a table that does not exist or is not authorized."
+            },
+            "top_left_x": 229,
+            "top_left_y": 1363
+          }
+        ],
+        "index": 2
+      },
+      {
+        "content": "Agentic parse test document - page 4\n\n# 9. Scanned memo (document page)\n\n## MEMORANDUM\n\nTo: All Data Engineers  From: CDO Office  Date: 14 Oct 2026\n\n1. Warehouse policy\nEffective 1 November 2026 all warehouses must use AUTO_SUSPEND of 60 seconds or less. Exceptions require written approval from the platform team.\n\n2. Cortex AI usage\nAI_PARSE_DOCUMENT may be used for internal documents only. Customer contracts must be processed in the EU region. Budget limit: 500 credits per month.\n\nNOTE: Non-compliant warehouses will be suspended.\n\n* Contact: platform-aram@example.com  Page 1 of 1\n\n![img-9.jpeg](img-9.jpeg)\n10. Road sign (photo with text)\n\n# 11. Survey results (infographic)\n\n![img-10.jpeg](img-10.jpeg)\n\n# 12. Decorative pattern (other)\n\n![img-11.jpeg](img-11.jpeg)",
+        "dimensions": {
+          "height": 2339,
+          "width": 1654
+        },
+        "images": [
+          {
+            "bottom_right_x": 1561,
+            "bottom_right_y": 722,
+            "id": "img-9.jpeg",
+            "results": {
+              "image_type": "photo_with_text",
+              "scene_description": "A green highway sign with white and yellow text indicating distances to Krakow and Katowice on the A4 highway, and an exit for the Airport.",
+              "visible_text": [
+                "A4 Krakow 12 km",
+                "Katowice 68 km",
+                "EXIT 412 -> Airport"
+              ]
+            },
+            "top_left_x": 802,
+            "top_left_y": 212
+          },
+          {
+            "bottom_right_x": 1300,
+            "bottom_right_y": 1749,
+            "id": "img-10.jpeg",
+            "results": {
+              "image_type": "infographic",
+              "key_values": [
+                "78%",
+                "3.4x",
+                "62%",
+                "$1.2M",
+                "82% (Invoices)",
+                "64% (Contracts)",
+                "41% (Research papers)",
+                "33% (Manuals)"
+              ],
+              "sections": [
+                {
+                  "heading": "Survey Overview",
+                  "key_facts": [
+                    "Survey of 1,200 data teams"
+                  ]
+                },
+                {
+                  "heading": "Key Metrics",
+                  "key_facts": [
+                    "78% use Cortex AI functions",
+                    "3.4x faster document processing",
+                    "62% replaced external OCR tools",
+                    "$1.2M avg. yearly savings"
+                  ]
+                },
+                {
+                  "heading": "TOP USE CASES",
+                  "key_facts": [
+                    "Invoices: 82%",
+                    "Contracts: 64%",
+                    "Research papers: 41%",
+                    "Manuals: 33%"
+                  ]
+                }
+              ],
+              "title": "SNOWFLAKE AI ADOPTION 2026"
+            },
+            "top_left_x": 350,
+            "top_left_y": 1127
+          },
+          {
+            "bottom_right_x": 1005,
+            "bottom_right_y": 2079,
+            "id": "img-11.jpeg",
+            "results": {
+              "description": "A colorful, abstract digital image featuring a repeating, blurry grid-like pattern of vibrant colors. The colors blend smoothly into one another, creating a soft-focus, out-of-focus effect. Visible hues include magenta, green, blue, yellow, red, cyan, white, and dark/black areas, arranged in a wavy, undulating grid pattern.",
+              "image_type": "other",
+              "visible_text": []
+            },
+            "top_left_x": 643,
+            "top_left_y": 1833
+          }
+        ],
+        "index": 3
+      }
+    ]
+  }
+}

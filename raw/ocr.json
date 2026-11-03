@@ -1,0 +1,26 @@
+{
+  "error": null,
+  "metadata": {
+    "pageCount": 4
+  },
+  "value": {
+    "pages": [
+      {
+        "content": "Annual Data Platform Report 2026\nThis document is a synthetic test file for comparing the OCR, LAYOUT and AGENTIC modes of\nAI_PARSE_DOCUMENT. Native text and tables are extracted by every mode, while the embedded images (charts,\ndiagrams, screenshots, scans, infographics, photos) are only interpreted by AGENTIC.\n1. Key figures (native PDF table)\nMetric 2025 2026\nRevenue (USD M) 480 585\nCustomers 1,940 2,310\nCredits consumed (M) 12.4 17.9\n2. Quarterly revenue (bar chart image)\nQuarterly Revenue 2026\n175\n$182M\n150 $145M $138M\n125 $120M\n100\n75\n50\nRevenue (USD millions)\n25\n0 Q1 2026 Q2 2026 Q3 2026 Q4 2026\nQuarter\nAgentic parse test document - page 1",
+        "index": 0
+      },
+      {
+        "content": "3. User activity (line chart)\nActive Users per Month (thousands) Peak: 30k\n30 Europe\nNorth America\n25\n20 U\nD\nUsers (k)\n15\n10\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\n4. Cost structure (pie chart) and segments (stacked bar)\nCloud Cost Breakdown FY2026\nData Transfer\n12%\nAl Services Compute 45% 18%\n25%\nStorage\nCustomers by Segment and Region\n120 Enterprise\nMid-market\n100 SMB\n80\n60\n40\nNumber of customers\n20\n0 EMEA AMER APJ\n5. Platform health (multi-panel chart)\nWeekly Platform Health Dashboard\nLatency p95 (ms) Availability (%) Credits vs Warehouse Size\n325 100.0\n300 99.5 6 -\n275\n250 99.0 4\n225 98.5 2 -\n200\n98.0 T T 2 4 6 2 4 6 0 20 40 60\nDay Day Size (credits/h)\nAgentic parse test document - page 2",
+        "index": 1
+      },
+      {
+        "content": "6. Order details (table rendered as image)\nWinter Order #WO-2026-0117\nProduct Units Unit price Total\nSnow Boots 120 $89.00 $10,680.00\nSki Jacket 45 $249.00 $11,205.00\nThermal Gloves 300 $19.50 $5,850.00\nGoggles 80 $65.00 $5,200.00\nTOTAL 545 $32,935.00\n7. Pipeline architecture (diagram)\nData Ingestion Architecture\nfile event COPY INTO TARGET_LAG 5 min SELECT\nS3 Bucket Snowpipe RAW table Dynamic Table > Streamlit App\n8. Error reported by user (screenshot)\nSnowsight | Worksheets > Untitled 1\nHome Role: ANALYST Warehouse: COMPUTE_WH (X-Small)\nProjects SELECT region, SUM(amount)\nData FROM sales.public.orders\nGROUP BY 1;\nMonitoring\nRun\nAdmin\nERROR SQL compilation error:\nObject 'SALES.PUBLIC.ORDERS' does not exist or not authorized.\nDownload results\nQuery ID: 01b7-0000-4a2c-ffff Duration: 112ms Status: FAILED\nAgentic parse test document - page 3",
+        "index": 2
+      },
+      {
+        "content": "9. Scanned memo (document page)\nMEMORANDUM\nTo: All Data Engineers From: CDO Office Date: 14 Oct 2026\n1. Warehouse policy\nEffective 1 November 2026 all warehouses must use\nAUTO_SUSPEND of 60 seconds or less. Exceptions\nrequire written approval from the platform team.\n2. Cortex Al usage\nAI_PARSE_DOCUMENT may be used for internal documents\nonly. Customer contracts must be processed in the\nEU region. Budget limit: 500 credits per month.\nNOTE: Non-compliant warehouses will be suspended.\nA4 Krakow 12 km\nKatowice 68 km\nEXIT 412 -> Airport\n* Contact: platform-team@example.com Page 1 of 1\n10. Road sign (photo with text)\n11. Survey results (infographic)\nSNOWFLAKE AI ADOPTION 2026\nSurvey of 1,200 data teams\n78% 3.4x 62% $1.2M\nuse Cortex Al faster documen replaced exter avg. yearly sa\nfunctions t processing nal OCR tools vings\nTOP USE CASES\nInvoices 82%\nContracts 64%\nResearch papers 41%\nManuals 33%\n12. Decorative pattern (other)\nAgentic parse test document - page 4",
+        "index": 3
+      }
+    ]
+  }
+}
