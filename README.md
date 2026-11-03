@@ -508,13 +508,15 @@ WHERE function_name = 'AI_PARSE_DOCUMENT'
 
 USD amounts below assume an illustrative $3 per credit. Your actual price depends on your contract and region.
 
-| Query | Mode | Pages | AI credits | WH credits (X-Small) | Quality |
-|---|---|---|---|---|---|
-| `CREATE TABLE ... AS` (OCR + LAYOUT in one statement) | OCR | 4 | 0.00272 | 0.0113 (shared, 40.8 s) | 8/10 facts, no structure, 0/12 images understood |
-| same | LAYOUT | 4 | 0.01464 | (shared) | Excellent structure, 3/10 facts, images are placeholders only |
-| `INSERT ... 'AGENTIC'` | AGENTIC | 4 | 0.03272 | 0.0046 (16.5 s) | 10/10 facts, 12/12 images classified, 24/24 chart points exact |
-| Tests 1–6 (31 queries on the stored `VARIANT`) | none | 0 | 0 | 0.0014 (5.0 s) | No AI cost: the document was parsed only once |
-| **Total** | | 12 | **0.050** | **0.017** | **≈ $0.20** |
+Parsing the 4-page test document once in each mode:
+
+| Mode | Pages | AI credits | ≈ USD | Quality |
+|---|---|---|---|---|
+| OCR | 4 | 0.00272 | $0.008 | 8/10 facts, no structure, 0/12 images understood |
+| LAYOUT | 4 | 0.01464 | $0.044 | Excellent structure, 3/10 facts, images are placeholders only |
+| AGENTIC | 4 | 0.03272 | $0.098 | 10/10 facts, 12/12 images classified, 24/24 chart points exact |
+
+On top of the AI credits you pay for the warehouse while it waits for the result. This is billed by time, not by mode: an X-Small warehouse costs 1 credit per hour. Parsing took about 57 s in total (≈ 0.016 credits). The 31 test queries on the stored `VARIANT` took 5 s (≈ 0.0014 credits) and used no AI credits.
 
 Normalised per page:
 
