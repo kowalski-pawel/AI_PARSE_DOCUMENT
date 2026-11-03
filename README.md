@@ -1,4 +1,4 @@
-# AI_PARSE_DOCUMENT Learned to See: Testing the New AGENTIC Mode Against OCR and LAYOUT
+# AI_PARSE_DOCUMENT : Testing the New AGENTIC Mode Against OCR and LAYOUT
 
 *Charts become rows, diagrams become graphs, and screenshots become state signals. Here is a hands-on comparison on a single, deliberately difficult PDF.*
 
